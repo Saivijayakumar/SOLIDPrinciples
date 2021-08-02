@@ -43,11 +43,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dependency Inversion Principle %28DIP%29\AutomobileController.cs" />
+    <Compile Include="Dependency Inversion Principle %28DIP%29\IAutomobile.cs" />
+    <Compile Include="Dependency Inversion Principle %28DIP%29\Jeep.cs" />
+    <Compile Include="Dependency Inversion Principle %28DIP%29\SUV.cs" />
+    <Compile Include="Interface Segregation Principle %28ISP%29\IPayForShoping.cs" />
+    <Compile Include="Interface Segregation Principle %28ISP%29\Ishoping.cs" />
+    <Compile Include="Interface Segregation Principle %28ISP%29\OfflineOrder.cs" />
+    <Compile Include="Interface Segregation Principle %28ISP%29\OnlineOrder.cs" />
+    <Compile Include="LiskovSubstitutionPrinciple %28LSP%29\Circle.cs" />
+    <Compile Include="LiskovSubstitutionPrinciple %28LSP%29\Rectangle.cs" />
+    <Compile Include="LiskovSubstitutionPrinciple %28LSP%29\Shape.cs" />
+    <Compile Include="Open Closed Principle %28OCP%29\IAccount.cs" />
+    <Compile Include="Open Closed Principle %28OCP%29\RegularSavingAccount.cs" />
+    <Compile Include="Open Closed Principle %28OCP%29\SalarySavingAccount.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SingleResponsibilityPrinciple %28SRP%29\Garage.cs" />
+    <Compile Include="SingleResponsibilityPrinciple %28SRP%29\GarageGate.cs" />
+    <Compile Include="SingleResponsibilityPrinciple %28SRP%29\IGarage.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
